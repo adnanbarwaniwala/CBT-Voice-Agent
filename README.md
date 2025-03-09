@@ -2,8 +2,6 @@
 
 CBT Voice Agent is a voice-enabled assistant that provides personalized support using **Cognitive Behavioral Therapy (CBT)**. It allows users to express their feelings verbally, processes the input using an agentic workflow powered by the Deepseek-R1 LLM and LangGraph library, and delivers supportive, actionable advice through audio responses.
 
----
-
 ## 🚀 **Features**
 
 - 🎤 **Voice Interaction**:
@@ -14,11 +12,10 @@ CBT Voice Agent is a voice-enabled assistant that provides personalized support 
   - Delivers empathetic and human-like audio responses.
   - The `Elevenlabs` library is used for text-to-speech.
 
----
 
-## ⚙️ **How Does It Work?**
+## ⚙️ **Understanding the Agentic Workflow**:
 
-The app follows an **agentic workflow** using three specialized AI agents. Each agent is powered by the `Deepseek-R1 LLM`. They work in this sequence:
+The workflow is created using the `LangGraph library`. It uses three specialized AI agents. Each agent is powered by the `Deepseek-R1 LLM`. They work in this sequence:
 
 ### 1️⃣ **Analysis Agent 🔍**
 
@@ -49,7 +46,6 @@ The app follows an **agentic workflow** using three specialized AI agents. Each 
 - **Output**:  
   Delivers a supportive, empathetic, and complete audio response to the user.
 
----
 
 ## 🗃️ **Agentic Workflow Structure**
 
@@ -69,8 +65,6 @@ User Input (Audio) 🎙️
                                           └──► User Receives Audio Response 🎙️
 ```
 
----
-
 ## 🧠 **Why CBT?**
 
 The app leverages CBT principles to:
@@ -80,7 +74,6 @@ The app leverages CBT principles to:
 - Encourage positive behavioral changes through structured interventions.
 - Deliver empathetic, validated emotional support.
 
----
 
 ## 📁 **Project Structure**
 
@@ -94,21 +87,15 @@ The app leverages CBT principles to:
 └── 📄 prompts.py           # Prompt definitions for Analysis, Intervention, and Support Agents
 ```
 
----
-
 ## 📜 **License**
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
-
----
 
 ## Contact
 
 For questions or suggestions, please open an issue or contact me directly:
 
 - **Email**: adnanbarwaniwala7@gmail.com
-
----
 
 ## 🙏 Thank You
 
