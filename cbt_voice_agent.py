@@ -1,10 +1,13 @@
 import streamlit as st
 from audio_recorder_streamlit import audio_recorder
-from api_keys import *
 from groq import Groq
 from openai import OpenAI
 from prompts import *
 import time
+
+groq_api_key = os.getenv('GROQ_API_KEY')
+deepseek_api_key = os.getenv("DEEPSEEK_API_KEY")
+elevenlabs_api_key = os.getenv("ELEVENLABS_API_KEY")
 
 st.set_page_config(
     page_title="CBT Voice Agent",
@@ -124,6 +127,7 @@ def create_graph():
 
     app = graph.compile()
     return app
+
 
 def model_response_to_audio(response):
     import io
