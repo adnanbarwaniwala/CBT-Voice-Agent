@@ -181,7 +181,7 @@ def display_elpased_time(start, end):
     st.markdown(timer_html, unsafe_allow_html=True)
 
 
-audio_bytes = audio_recorder(pause_threshold=3.0, text='Express your feelings:',)
+audio_bytes = audio_recorder(pause_threshold=2.5, text='Express your feelings:',)
 file_path = "recorded_audio.wav"
 
 if audio_bytes:
@@ -191,6 +191,8 @@ if audio_bytes:
     with open(file_path, "wb") as f:
         f.write(audio_bytes) # Saving the audio file locally
     user_query = speech_to_text(file_path) # Converting question in audio form to text
+
+    st.info("**The agent takes 2-4 minutes to reason and come up with the perfect CBT therapy for you.**", icon="ℹ️")
 
     master_agent = create_graph()
     result = master_agent.invoke({'messages': [{'role': 'user', 'content': user_query}]})
