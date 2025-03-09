@@ -6,13 +6,19 @@ CBT Voice Agent is a voice-enabled assistant that provides personalized support 
 
 ## 🚀 **Features**
 
-- 🎤 **Voice Interaction**:
-  - Speak directly to the app to express your feelings or concerns.
-  - Speech is transcribed to text using the `OpenAI Whisper model`.
-- 🤖 **AI-driven CBT Support**: Uses a structured, agentic workflow to provide targeted CBT interventions.
-- 🗣️ **Natural Conversational Responses**:
-  - Delivers empathetic and human-like audio responses.
-  - The `Elevenlabs` library is used for text-to-speech.
+- 🎤 **Voice Interaction**:  
+  - Speak directly to the app to express your feelings or concerns.  
+  - 📝 Speech is transcribed to text using the `OpenAI Whisper model`.  
+
+- 🤖 **AI-driven CBT Support**:  
+  - Uses a structured, agentic workflow to provide targeted CBT interventions.  
+
+- 🗣️ **Natural Conversational Responses**:  
+  - Delivers empathetic and human-like audio replies.  
+  - 🔊 The `ElevenLabs library` is used for text-to-speech.  
+
+- 📜 **Chat History**:  
+  - Remembers the context of previous interactions.
 
 ---
 
