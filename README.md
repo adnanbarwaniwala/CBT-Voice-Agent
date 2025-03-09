@@ -2,6 +2,7 @@
 
 CBT Voice Agent is a voice-enabled assistant that provides personalized support using **Cognitive Behavioral Therapy (CBT)**. It allows users to express their feelings verbally, processes the input using an agentic workflow powered by the Deepseek-R1 LLM and LangGraph library, and delivers supportive, actionable advice through audio responses.
 
+
 ## 🚀 **Features**
 
 - 🎤 **Voice Interaction**:
@@ -65,14 +66,17 @@ User Input (Audio) 🎙️
                                           └──► User Receives Audio Response 🎙️
 ```
 
+
 ## 🧠 **Why CBT?**
 
-The app leverages CBT principles to:
+Cognitive Behavioral Therapy (CBT) helps people change negative thought patterns and develop healthier ways of thinking. This app uses CBT to:
 
-- Identify and challenge negative thought patterns (cognitive distortions).
-- Provide practical coping strategies.
-- Encourage positive behavioral changes through structured interventions.
-- Deliver empathetic, validated emotional support.
+- 🧐 **Recognize Negative Thinking**: Identifies unhelpful thoughts that may be affecting your emotions.
+- 🔄 **Challenge and Replace Them**: Helps you question if those thoughts are true and guides you to a more balanced perspective.
+- 🏆 **Provide Practical Coping Strategies**: Suggests real actions you can take to improve your mood and manage stress.
+- 🤗 **Offer Encouragement and Support**: Gives positive feedback and motivation to help you feel better.
+
+By following CBT techniques, the app helps you think more healthily and take steps toward feeling more in control. 
 
 
 ## 📁 **Project Structure**
@@ -87,15 +91,18 @@ The app leverages CBT principles to:
 └── 📄 prompts.py           # Prompt definitions for Analysis, Intervention, and Support Agents
 ```
 
+
 ## 📜 **License**
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+
 
 ## Contact
 
 For questions or suggestions, please open an issue or contact me directly:
 
 - **Email**: adnanbarwaniwala7@gmail.com
+
 
 ## 🙏 Thank You
 
