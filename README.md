@@ -1,6 +1,6 @@
 # 🎙️🧠 **CBT Voice Agent**
 
-CBT Voice Agent is an intelligent, voice-enabled assistant built to provide personalized support using **Cognitive Behavioral Therapy (CBT)**. It allows users to express their feelings verbally, processes the input using state-of-the-art language models, and delivers supportive, actionable advice through audio responses.
+CBT Voice Agent is a voice-enabled assistant that provides personalized support using **Cognitive Behavioral Therapy (CBT)**. It allows users to express their feelings verbally, processes the input using an agentic workflow powered by the Deepseek-R1 LLM and LangGraph library, and delivers supportive, actionable advice through audio responses.
 
 ---
 
@@ -12,17 +12,9 @@ CBT Voice Agent is an intelligent, voice-enabled assistant built to provide pers
 
 ---
 
-## 🌟 **Use Cases**
-
-- **Mental Health Support**: Quickly gain CBT-based insights and coping strategies for anxiety, depression, stress, and more.
-- **Self-help Companion**: Accessible, private CBT practice directly from your own device.
-- **Learning CBT**: Understand and apply CBT concepts through practical, conversational interactions.
-
----
-
 ## ⚙️ **How Does It Work?**
 
-The app follows an **agentic workflow** using three specialized AI agents working in sequence:
+The app follows an **agentic workflow** using three specialized AI agents. Each agent is powered by the `Deepseek-R1 LLM`. They work in this sequence:
 
 ### 1️⃣ **Analysis Agent 🔍**
 
@@ -52,7 +44,7 @@ The app follows an **agentic workflow** using three specialized AI agents workin
 - **Functionality**:  
   - Receives the intervention from the Intervention Agent.
   - Adds empathetic validation, encouragement, and supportive feedback.
-  - Prompts user for reflection on their emotional state and intervention effectiveness.
+  - Prompts the user for reflection on their emotional state and intervention effectiveness.
 
 - **Output**:  
   Delivers a supportive, empathetic, and complete audio response to the user.
@@ -106,9 +98,18 @@ The app leverages CBT principles to:
 
 ## 📜 **License**
 
-Distributed under the MIT License. See `LICENSE` for more details.
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-🌟 **Built with ❤️ and AI** 🌟
-```
+## Contact
+
+For questions or suggestions, please open an issue or contact me directly:
+
+- **Email**: adnanbarwaniwala7@gmail.com
+
+---
+
+## 🙏 Thank You
+
+Thank you for spending time on my repo. Hope you enjoyed it!
