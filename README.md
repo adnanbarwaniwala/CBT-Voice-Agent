@@ -1,6 +1,7 @@
 # 🎙️🧠 **CBT Voice Agent**
 
 CBT Voice Agent is a voice-enabled assistant that provides personalized support using **Cognitive Behavioral Therapy (CBT)**. It allows users to express their feelings verbally, processes the input using an agentic workflow powered by the Deepseek-R1 LLM and LangGraph library, and delivers supportive, actionable advice through audio responses.
+
 ---
 
 ## 🚀 **Features**
@@ -12,6 +13,7 @@ CBT Voice Agent is a voice-enabled assistant that provides personalized support 
 - 🗣️ **Natural Conversational Responses**:
   - Delivers empathetic and human-like audio responses.
   - The `Elevenlabs` library is used for text-to-speech.
+
 ---
 
 ## ⚙️ **Understanding the Agentic Workflow**:
@@ -46,6 +48,7 @@ The workflow is created using the `LangGraph library`. It uses three specialized
 
 - **Output**:  
   Delivers a supportive, empathetic, and complete audio response to the user.
+
 ---
 
 ## 🗃️ **Agentic Workflow Structure**
@@ -77,6 +80,7 @@ Cognitive Behavioral Therapy (CBT) helps people change negative thought patterns
 - 🤗 **Offer Encouragement and Support**: Gives positive feedback and motivation to help you feel better.
 
 By following CBT techniques, the app helps you think more healthily and take steps toward feeling more in control. 
+
 ---
 
 ## 📁 **Project Structure**
@@ -95,6 +99,7 @@ By following CBT techniques, the app helps you think more healthily and take ste
 ## 📜 **License**
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+
 ---
 
 ## Contact
@@ -103,6 +108,7 @@ For questions or suggestions, please open an issue or contact me directly:
 
 - **Email**: adnanbarwaniwala7@gmail.com
 
+---
 
 ## 🙏 Thank You
 
