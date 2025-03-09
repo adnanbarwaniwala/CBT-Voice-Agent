@@ -1,7 +1,10 @@
 # 🎙️🧠 **CBT Voice Agent**
 
-CBT Voice Agent is a voice-enabled assistant that provides personalized support using **Cognitive Behavioral Therapy (CBT)**. It allows users to express their feelings verbally, processes the input using an agentic workflow powered by the Deepseek-R1 LLM and LangGraph library, and delivers supportive, actionable advice through audio responses. Click on the link below to watch the project demo:
+CBT Voice Agent is a voice-enabled assistant that provides personalized support using **Cognitive Behavioral Therapy (CBT)**. It allows users to express their feelings verbally, processes the input using an agentic workflow powered by the Deepseek-R1 LLM and LangGraph library, and delivers supportive, actionable advice through audio responses.
 
+---
+## Project Demo:
+Click on the image to watch the project demo on YouTube:
 [![Watch the video](https://img.youtube.com/vi/jS7HKRbxa8o/maxresdefault.jpg)](https://www.youtube.com/watch?v=jS7HKRbxa8o)
 
 ---
