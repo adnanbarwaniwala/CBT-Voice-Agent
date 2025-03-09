@@ -3,7 +3,7 @@ from audio_recorder_streamlit import audio_recorder
 from groq import Groq
 from openai import OpenAI
 from prompts import *
-import time
+import time, os
 
 groq_api_key = os.getenv('GROQ_API_KEY')
 deepseek_api_key = os.getenv("DEEPSEEK_API_KEY")
