@@ -5,7 +5,7 @@ CBT Voice Agent is a voice-enabled assistant that provides personalized support 
 ---
 
 <video src="https://raw.githubusercontent.com/adnanbarwaniwala/CBT-Voice-Agent/main/video.mp4" controls width="600">
-</video>
+</video> 
 
 ## 🚀 **Features**
 
